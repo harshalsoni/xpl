@@ -19,6 +19,14 @@ export default function HeroCarousel({ slides }) {
 
   return (
     <section className={`relative ${slide.bgColor || 'bg-gradient-to-br from-xplore-green to-xplore-green-dark'} text-white py-20 md:py-28 transition-all duration-500`}>
+      {slide.bgImage && (
+        <div
+          className="absolute inset-0 bg-cover bg-center transition-all duration-500"
+          style={{ backgroundImage: `url(${slide.bgImage})` }}
+        >
+          <div className="absolute inset-0 bg-xplore-dark/60" />
+        </div>
+      )}
       <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
         <h2 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">{slide.title}</h2>
         <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto mb-8">{slide.description}</p>

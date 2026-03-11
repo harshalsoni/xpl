@@ -18,7 +18,8 @@ export default function Satellite() {
         description="Powered by the JUPITER™3 satellite, the largest commercial satellite in the world, we're bringing next-generation satellite Internet services to more remote locations across Canada."
         ctaText="Check Availability"
         ctaHref="#lookup"
-        bgColor="bg-gradient-to-br from-violet-700 to-purple-900"
+        bgColor="bg-gradient-to-br from-xplore-dark-deep to-xplore-dark"
+        bgImage="/images/hero-satellite.svg"
       />
 
       <section className="py-16">

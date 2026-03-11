@@ -24,7 +24,8 @@ export default function HomePhone() {
         title="Xplore Home Phone"
         description="Save money with affordable VoIP home phone service. Unlimited Canada-wide calling included."
         size="md"
-        bgColor="bg-gradient-to-br from-green-600 to-teal-700"
+        bgColor="bg-gradient-to-br from-xplore-dark to-xplore-green-dark"
+        bgImage="/images/hero-home-phone.svg"
       />
 
       <section className="py-16">

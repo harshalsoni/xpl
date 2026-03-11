@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="hero-whole-home-wifi-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#283238"/>
+      <stop offset="100%" style="stop-color:#00D448"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="600" fill="url(#hero-whole-home-wifi-bg)"/>
+  <circle cx="960" cy="250" r="80" fill="none" stroke="#00FF57" stroke-width="3" opacity="0.3"/>
+  <circle cx="960" cy="250" r="140" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.2"/>
+  <text x="960" y="390" font-family="Arial, sans-serif" font-weight="bold" font-size="48" fill="#ffffff" text-anchor="middle">Whole Home WiFi</text>
+  <text x="960" y="450" font-family="Arial, sans-serif" font-size="24" fill="#00FF57" text-anchor="middle" opacity="0.7">Placeholder — replace with WiFi banner image</text>
+</svg>

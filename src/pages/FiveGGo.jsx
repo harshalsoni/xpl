@@ -23,7 +23,8 @@ export default function FiveGGo() {
         description="Get powerful 5G Internet that moves with you. Speeds up to 100 Mbps available."
         ctaText="Order Now"
         ctaHref="https://www.myxplore.ca/customers/s/xplore-5g-go-purchase?language=en_US"
-        bgColor="bg-gradient-to-br from-cyan-600 to-blue-800"
+        bgColor="bg-gradient-to-br from-xplore-dark to-xplore-green-dark"
+        bgImage="/images/hero-5g-go.svg"
       />
 
       <section className="py-16">

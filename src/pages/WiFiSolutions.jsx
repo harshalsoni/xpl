@@ -9,7 +9,8 @@ export default function WiFiSolutions() {
         title="Wi-Fi Solutions"
         description="Get the best Wi-Fi experience throughout your home with our range of solutions."
         size="md"
-        bgColor="bg-gradient-to-br from-cyan-600 to-blue-700"
+        bgColor="bg-gradient-to-br from-xplore-dark to-xplore-green-dark"
+        bgImage="/images/hero-wifi.svg"
       />
 
       <section className="py-16">

@@ -18,7 +18,8 @@ export default function WirelessRouter() {
         title="Wireless Router"
         description="Update your old router and enjoy incredible range and speeds, security features, and ease of use."
         size="md"
-        bgColor="bg-gradient-to-br from-gray-700 to-gray-900"
+        bgColor="bg-gradient-to-br from-xplore-dark to-xplore-dark-deep"
+        bgImage="/images/hero-router.svg"
       />
 
       <section className="py-16">

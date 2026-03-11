@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="hero-fibre-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D448"/>
+      <stop offset="100%" style="stop-color:#283238"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="600" fill="url(#hero-fibre-bg)"/>
+  <line x1="100" y1="550" x2="1820" y2="550" stroke="#00FF57" stroke-width="3" opacity="0.3"/>
+  <line x1="100" y1="540" x2="1400" y2="540" stroke="#00FF57" stroke-width="2" opacity="0.2"/>
+  <line x1="100" y1="530" x2="1600" y2="530" stroke="#00FF57" stroke-width="1" opacity="0.15"/>
+  <text x="960" y="280" font-family="Arial, sans-serif" font-weight="bold" font-size="48" fill="#ffffff" text-anchor="middle">100% Pure Fibre Internet</text>
+  <text x="960" y="340" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" opacity="0.7">Placeholder — replace with fibre banner image</text>
+</svg>

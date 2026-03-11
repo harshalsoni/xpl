@@ -25,7 +25,8 @@ export default function ReferAFriend() {
         description="Share the joy of amazing home Internet and get a $100 bill credit for you and $100 for your friend for a limited time!"
         ctaText="Start Referring"
         ctaHref="https://refer.xplore.ca"
-        bgColor="bg-gradient-to-br from-amber-500 to-orange-600"
+        bgColor="bg-gradient-to-br from-xplore-green to-xplore-dark"
+        bgImage="/images/hero-refer.svg"
       />
 
       <section className="py-16">

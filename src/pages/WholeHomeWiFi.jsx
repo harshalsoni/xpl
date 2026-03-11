@@ -18,7 +18,8 @@ export default function WholeHomeWiFi() {
         title="Whole Home Wi-Fi"
         description="Get complete Wi-Fi coverage throughout your entire home. No more dead zones!"
         size="md"
-        bgColor="bg-gradient-to-br from-blue-600 to-indigo-700"
+        bgColor="bg-gradient-to-br from-xplore-dark to-xplore-green-dark"
+        bgImage="/images/hero-whole-home-wifi.svg"
       />
 
       <section className="py-16">

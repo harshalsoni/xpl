@@ -40,7 +40,8 @@ export default function Cottage() {
         description="With our upgraded networks, Xplore is the perfect choice for your cottage connection. Up to 500 Mbps 5G Ultra and up to 1 Gbps pure fibre Internet available."
         ctaText="Check Availability"
         ctaHref="#lookup"
-        bgColor="bg-gradient-to-br from-emerald-600 to-cyan-700"
+        bgColor="bg-gradient-to-br from-xplore-green to-xplore-green-dark"
+        bgImage="/images/hero-cottage.svg"
       />
 
       <section className="py-16">

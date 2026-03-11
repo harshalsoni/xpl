@@ -15,7 +15,8 @@ export default function Business() {
       <HeroSection
         title="Xplore Business Internet"
         description="Custom-built business connectivity solutions designed based on your specific requirements."
-        bgColor="bg-gradient-to-br from-gray-800 to-gray-900"
+        bgColor="bg-gradient-to-br from-xplore-dark to-xplore-dark-deep"
+        bgImage="/images/hero-business.svg"
       />
 
       <section className="py-16">

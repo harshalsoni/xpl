@@ -31,7 +31,8 @@ export default function Fibre() {
         description="We believe Canadians in rural communities deserve better, faster Internet. That's why we are deploying a 100% pure fibre Internet network, offering lightning-fast speeds at affordable prices."
         ctaText="Check Availability"
         ctaHref="#lookup"
-        bgColor="bg-gradient-to-br from-teal-600 to-emerald-800"
+        bgColor="bg-gradient-to-br from-xplore-green-dark to-xplore-dark"
+        bgImage="/images/hero-fibre.svg"
       />
 
       <section className="py-16">

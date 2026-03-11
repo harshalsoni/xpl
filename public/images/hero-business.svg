@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="hero-business-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#283238"/>
+      <stop offset="100%" style="stop-color:#1C2428"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="600" fill="url(#hero-business-bg)"/>
+  <rect x="200" y="150" width="300" height="300" rx="8" fill="#00FF57" opacity="0.05"/>
+  <rect x="1420" y="150" width="300" height="300" rx="8" fill="#00FF57" opacity="0.05"/>
+  <text x="960" y="280" font-family="Arial, sans-serif" font-weight="bold" font-size="48" fill="#ffffff" text-anchor="middle">Business Internet</text>
+  <text x="960" y="340" font-family="Arial, sans-serif" font-size="24" fill="#00FF57" text-anchor="middle" opacity="0.7">Placeholder — replace with business banner image</text>
+</svg>

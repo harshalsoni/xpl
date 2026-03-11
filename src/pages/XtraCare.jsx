@@ -15,7 +15,8 @@ export default function XtraCare() {
         title="Xtra Care Warranty"
         description="Get peace of mind with Xtra Care warranty coverage. Protection for your Xplore equipment after your standard warranty expires."
         size="md"
-        bgColor="bg-gradient-to-br from-amber-600 to-orange-700"
+        bgColor="bg-gradient-to-br from-xplore-green to-xplore-green-dark"
+        bgImage="/images/hero-xtra-care.svg"
       />
 
       <section className="py-16">

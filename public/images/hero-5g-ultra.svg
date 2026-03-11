@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="hero-5g-ultra-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#283238"/>
+      <stop offset="100%" style="stop-color:#1C2428"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="600" fill="url(#hero-5g-ultra-bg)"/>
+  <circle cx="1400" cy="300" r="300" fill="#00FF57" opacity="0.06"/>
+  <circle cx="1450" cy="250" r="200" fill="#00FF57" opacity="0.04"/>
+  <text x="960" y="240" font-family="Arial, sans-serif" font-weight="bold" font-size="64" fill="#00FF57" text-anchor="middle">5G</text>
+  <text x="960" y="310" font-family="Arial, sans-serif" font-weight="bold" font-size="40" fill="#ffffff" text-anchor="middle">Ultra-Fast Wireless Internet</text>
+  <text x="960" y="370" font-family="Arial, sans-serif" font-size="24" fill="#00FF57" text-anchor="middle" opacity="0.7">Placeholder — replace with 5G Ultra banner image</text>
+</svg>

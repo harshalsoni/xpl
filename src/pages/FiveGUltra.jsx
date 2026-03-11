@@ -27,7 +27,8 @@ export default function FiveGUltra() {
         description="Xplore is bringing 5G Ultra, the fastest wireless Internet technology, to rural and small-town Canada. Enabling incredible speeds up to 500Mbps and unlimited data."
         ctaText="Check Availability"
         ctaHref="#lookup"
-        bgColor="bg-gradient-to-br from-blue-600 to-indigo-800"
+        bgColor="bg-gradient-to-br from-xplore-dark to-xplore-dark-deep"
+        bgImage="/images/hero-5g-ultra.svg"
       />
 
       <section className="py-16">
