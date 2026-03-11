@@ -1,4 +1,4 @@
-import { Globe, Users, Wifi, Package } from 'lucide-react';
+import { Globe, Users, Wifi, Package, MapPin, ChevronDown } from 'lucide-react';
 import HeroCarousel from '../components/ui/HeroCarousel';
 import Card from '../components/ui/Card';
 import TestimonialCarousel from '../components/ui/TestimonialCarousel';
@@ -8,10 +8,10 @@ import Button from '../components/ui/Button';
 const heroSlides = [
   {
     title: 'Spring Into Savings',
-    description: 'Get FREE professional install when you sign up for any Fixed Wireless or Fibre Internet plan.',
+    description: 'Get FREE professional install¹ when you sign up for any Fixed Wireless or Fibre Internet plan.',
     ctaText: 'Learn More',
     ctaTo: '/shop/internet-packages',
-    bgColor: 'bg-gradient-to-br from-xplore-green to-xplore-green-dark',
+    tabLabel: 'Spring Into Savings',
     bgImage: '/images/hero-home.svg',
   },
   {
@@ -19,23 +19,15 @@ const heroSlides = [
     description: 'BIG Internet speeds for rural & small-town Canada. Get up to 10 times faster speeds with the latest fixed wireless Internet technology.',
     ctaText: 'Learn More',
     ctaTo: '/5gultra',
-    bgColor: 'bg-gradient-to-br from-xplore-dark to-xplore-dark-deep',
+    tabLabel: '5G Ultra',
     bgImage: '/images/hero-5g-ultra.svg',
-  },
-  {
-    title: '100% Pure Fibre Internet is Now Available',
-    description: 'Xplore Fibre is now available in select regions. Get Gigabit speeds and an ultra-reliable connection!',
-    ctaText: 'Learn More',
-    ctaTo: '/fibre',
-    bgColor: 'bg-gradient-to-br from-xplore-green-dark to-xplore-dark',
-    bgImage: '/images/hero-fibre.svg',
   },
   {
     title: 'Ultra-fast Internet at the Cottage',
     description: 'Work, stream and everything in between, from your favourite place in the world. 5G Ultra & Pure Fibre gigabit plans now available.',
     ctaText: 'Cottage Internet',
     ctaTo: '/cottage',
-    bgColor: 'bg-gradient-to-br from-xplore-green to-xplore-green-dark',
+    tabLabel: 'Cottage Internet',
     bgImage: '/images/hero-cottage.svg',
   },
   {
@@ -43,7 +35,7 @@ const heroSlides = [
     description: 'Double rewards this spring! Get a $100 bill credit for you and $100 for a friend you refer for a limited time.',
     ctaText: 'Start Referring',
     ctaTo: '/shop/refer-a-friend',
-    bgColor: 'bg-gradient-to-br from-xplore-green to-xplore-dark',
+    tabLabel: 'Refer a Friend - double rewards',
     bgImage: '/images/hero-refer.svg',
   },
 ];
@@ -52,6 +44,21 @@ export default function Home() {
   return (
     <div>
       <HeroCarousel slides={heroSlides} />
+
+      {/* Province detection bar */}
+      <div className="bg-xplore-dark text-white">
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <MapPin size={18} className="text-xplore-green flex-shrink-0" />
+            <span className="text-sm md:text-base">
+              Looks like you&apos;re in New Brunswick. If not, choose your correct province.
+            </span>
+          </div>
+          <button className="flex items-center gap-1 text-xplore-green text-sm font-medium hover:underline whitespace-nowrap">
+            Change Province <ChevronDown size={16} />
+          </button>
+        </div>
+      </div>
 
       {/* Better, Faster Rural Internet */}
       <section className="py-16">

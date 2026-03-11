@@ -1,3 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 36">
-  <text x="0" y="28" font-family="Arial, sans-serif" font-weight="bold" font-size="30" fill="#00FF57">Xplore</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 60">
+  <defs>
+    <linearGradient id="xGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c0c0c0"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c0c0c0"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="26" font-family="Arial, sans-serif" font-weight="400" font-size="16" fill="#ffffff" letter-spacing="2">Xplore</text>
+  <!-- Stylized X mark -->
+  <g transform="translate(26, 22)">
+    <line x1="0" y1="0" x2="24" y2="32" stroke="url(#xGrad)" stroke-width="5" stroke-linecap="round"/>
+    <line x1="24" y1="0" x2="0" y2="32" stroke="url(#xGrad)" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="24" y2="32" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <line x1="24" y1="0" x2="0" y2="32" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
 </svg>
