@@ -13,6 +13,20 @@ This is a React-based replica of the [xplore.ca](https://www.xplore.ca/) website
 - **Lucide React** for SVG icons
 - **ESLint 9** with flat config (`eslint.config.js`)
 
+## Brand Colors (xplore.ca aligned)
+
+Defined in `src/index.css` under `@theme`:
+
+| Token                  | Hex       | Usage                              |
+| ---------------------- | --------- | ---------------------------------- |
+| `xplore-green`         | `#00FF57` | Primary brand green (Spring Green) |
+| `xplore-green-dark`    | `#00D448` | Darker green for hovers/accents    |
+| `xplore-green-light`   | `#E5FFF0` | Light green backgrounds            |
+| `xplore-dark`          | `#283238` | Dark backgrounds (Outer Space)     |
+| `xplore-dark-deep`     | `#1C2428` | Deeper dark for gradients          |
+| `xplore-gray`          | `#6b7280` | Secondary text                     |
+| `xplore-light`         | `#f8f9fa` | Light section backgrounds          |
+
 ## Key Conventions
 
 - Components use **function declarations** (`export default function ComponentName()`) rather than arrow functions.
@@ -21,6 +35,7 @@ This is a React-based replica of the [xplore.ca](https://www.xplore.ca/) website
 - Custom brand colors are defined in `src/index.css` under `@theme` (e.g., `xplore-green`, `xplore-dark`).
 - Static data (nav links, blog posts, FAQs, testimonials) lives in `src/data/` as exported JS arrays/objects.
 - Pages are in `src/pages/`, reusable components in `src/components/ui/`, layout shell in `src/components/layout/`.
+- Hero sections use a `bgImage` prop pointing to SVG banners in `public/images/` with a dark overlay on top.
 
 ## Common Commands
 
@@ -39,10 +54,18 @@ npm run lint      # ESLint check
 - There is no backend or API — all data is static/mocked.
 - The address lookup in the footer is a demo placeholder.
 - No test framework is currently set up.
+- `HeroSection` and `HeroCarousel` both accept a `bgImage` prop (path to SVG in `public/images/`) and render it as a CSS `background-image` with a `bg-xplore-dark/60` overlay.
+- Banner SVGs in `public/images/` contain **no text** — all text is rendered by React components on top of the background.
 
 ## File Structure
 
 ```
+public/
+├── images/            # SVG banner images for hero sections
+│   ├── hero-home.svg, hero-5g-ultra.svg, hero-cottage.svg, ...
+│   └── (13 themed banner SVGs total)
+└── xplore-logo.svg    # Brand logo
+
 src/
 ├── components/
 │   ├── layout/        # Header, Footer, Layout (with Outlet)
