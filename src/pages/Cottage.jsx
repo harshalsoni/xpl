@@ -1,4 +1,4 @@
-import { Pause, Infinity, Users, MapPin, Wifi, Zap } from 'lucide-react';
+import { Pause, Infinity as InfinityIcon, Users, MapPin, Wifi, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/ui/HeroSection';
 import FeatureGrid from '../components/ui/FeatureGrid';
@@ -8,7 +8,7 @@ import { cottageFAQ } from '../data/faq/cottage';
 
 const benefits = [
   { icon: Pause, title: 'Seasonal Service Pause', description: 'Pause your Internet for up to 6 months when you don\'t use your cottage.' },
-  { icon: Infinity, title: 'Unlimited Usage', description: 'Our Wireless and Fibre plans have truly unlimited usage with no data caps.' },
+  { icon: InfinityIcon, title: 'Unlimited Usage', description: 'Our Wireless and Fibre plans have truly unlimited usage with no data caps.' },
   { icon: Users, title: 'Truly Local Service', description: 'There is always a technician near you for installation and support.' },
   { icon: MapPin, title: 'Rural Internet Expertise', description: 'We specialize in connecting locations off the beaten path. Our focus is on rural and remote areas.' },
   { icon: Wifi, title: 'Whole Home Wi-Fi', description: 'Get extra Wi-Fi pods for a strong secure connection across your property.' },

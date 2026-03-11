@@ -1,4 +1,4 @@
-import { Gift, Heart, MapPin, Shield, Infinity, Users } from 'lucide-react';
+import { Gift, Heart, MapPin, Shield, Infinity as InfinityIcon, Users } from 'lucide-react';
 import HeroSection from '../components/ui/HeroSection';
 import FeatureGrid from '../components/ui/FeatureGrid';
 import FAQAccordion from '../components/ui/FAQAccordion';
@@ -9,7 +9,7 @@ const reasons = [
   { icon: MapPin, title: 'Built for Canadians, by Canadians', description: 'We have proudly provided Internet in rural communities for over 20 years through 100% Canadian-based employees.' },
   { icon: Users, title: 'Expertise Beyond the Big Cities', description: 'Xplore has offered service outside urban areas for more than 20 years. We\'re expanding Fibre and 5G networks.' },
   { icon: Shield, title: '30-Day Satisfaction Guarantee', description: 'Try Xplore worry-free. If you aren\'t completely satisfied, you will get your money back.' },
-  { icon: Infinity, title: 'Truly Unlimited Data', description: 'Our Wireless Home Internet plans offer truly unlimited data - no data cap, and your speed stays at maximum.' },
+  { icon: InfinityIcon, title: 'Truly Unlimited Data', description: 'Our Wireless Home Internet plans offer truly unlimited data - no data cap, and your speed stays at maximum.' },
 ];
 
 const faq = [

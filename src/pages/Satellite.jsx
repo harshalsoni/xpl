@@ -1,11 +1,11 @@
-import { Zap, Infinity, Globe, Users } from 'lucide-react';
+import { Zap, Infinity as InfinityIcon, Globe, Users } from 'lucide-react';
 import HeroSection from '../components/ui/HeroSection';
 import FeatureGrid from '../components/ui/FeatureGrid';
 import CTABanner from '../components/sections/CTABanner';
 
 const features = [
   { icon: Zap, title: 'Up to 100 Mbps Speeds', description: 'Stream 4K videos, work, play and connect all your devices.' },
-  { icon: Infinity, title: 'Unlimited Usage', description: "500 GB/month at max speeds and unlimited access thereafter. No overage charges, ever." },
+  { icon: InfinityIcon, title: 'Unlimited Usage', description: "500 GB/month at max speeds and unlimited access thereafter. No overage charges, ever." },
   { icon: Globe, title: 'Enhanced Coverage', description: 'Great Internet, wherever you live across Canada.' },
   { icon: Users, title: 'Professional Install & Local Support', description: 'An Xplore technician from your community will install your service and make sure everything is set up correctly.' },
 ];

@@ -1,4 +1,4 @@
-import { Zap, Infinity, Wifi, Smartphone, Settings, MapPin, Battery } from 'lucide-react';
+import { Zap, Infinity as InfinityIcon, Wifi, Smartphone, Settings, MapPin, Battery } from 'lucide-react';
 import HeroSection from '../components/ui/HeroSection';
 import FeatureGrid from '../components/ui/FeatureGrid';
 import FAQAccordion from '../components/ui/FAQAccordion';
@@ -7,7 +7,7 @@ import { fiveGGoFAQ } from '../data/faq/fiveGGo';
 
 const features = [
   { icon: Zap, title: 'Fast Internet', description: 'Speeds up to 100 Mbps' },
-  { icon: Infinity, title: 'Truly Unlimited Data', description: 'No throttling' },
+  { icon: InfinityIcon, title: 'Truly Unlimited Data', description: 'No throttling' },
   { icon: Wifi, title: 'Fast WiFi', description: 'Using Wi-Fi 6' },
   { icon: Smartphone, title: 'Connect Many Devices', description: 'Up to 10 devices' },
   { icon: Settings, title: 'Easy to Install', description: 'Instant self-setup, plug & play' },
