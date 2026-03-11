@@ -1,13 +1,115 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
   <defs>
-    <linearGradient id="hero-whole-home-wifi-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#283238"/>
-      <stop offset="100%" style="stop-color:#00D448"/>
+    <linearGradient id="wh-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1C2428"/>
+      <stop offset="100%" stop-color="#283238"/>
     </linearGradient>
+    <radialGradient id="wh-node1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00FF57" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00FF57" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wh-node2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00FF57" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00FF57" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="1920" height="600" fill="url(#hero-whole-home-wifi-bg)"/>
-  <circle cx="960" cy="250" r="80" fill="none" stroke="#00FF57" stroke-width="3" opacity="0.3"/>
-  <circle cx="960" cy="250" r="140" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.2"/>
-  <text x="960" y="390" font-family="Arial, sans-serif" font-weight="bold" font-size="48" fill="#ffffff" text-anchor="middle">Whole Home WiFi</text>
-  <text x="960" y="450" font-family="Arial, sans-serif" font-size="24" fill="#00FF57" text-anchor="middle" opacity="0.7">Placeholder — replace with WiFi banner image</text>
+
+  <rect width="1920" height="600" fill="url(#wh-bg)"/>
+
+  <!-- House outline - large centered -->
+  <g transform="translate(960, 300)">
+    <!-- Main house body -->
+    <rect x="-300" y="0" width="600" height="200" rx="4" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.2"/>
+    <!-- Roof -->
+    <polygon points="-320,0 0,-120 320,0" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.25"/>
+    <!-- Internal walls -->
+    <line x1="-100" y1="0" x2="-100" y2="200" stroke="#00FF57" stroke-width="1" opacity="0.1"/>
+    <line x1="100" y1="0" x2="100" y2="200" stroke="#00FF57" stroke-width="1" opacity="0.1"/>
+    <line x1="-300" y1="100" x2="300" y2="100" stroke="#00FF57" stroke-width="1" opacity="0.08"/>
+    <!-- Door -->
+    <rect x="-15" y="140" width="30" height="60" rx="2" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.15"/>
+    <!-- Windows -->
+    <rect x="-250" y="30" width="40" height="40" rx="2" fill="#00FF57" opacity="0.06"/>
+    <rect x="-180" y="30" width="40" height="40" rx="2" fill="#00FF57" opacity="0.05"/>
+    <rect x="140" y="30" width="40" height="40" rx="2" fill="#00FF57" opacity="0.06"/>
+    <rect x="210" y="30" width="40" height="40" rx="2" fill="#00FF57" opacity="0.05"/>
+    <rect x="-250" y="120" width="40" height="40" rx="2" fill="#00FF57" opacity="0.05"/>
+    <rect x="140" y="120" width="40" height="40" rx="2" fill="#00FF57" opacity="0.06"/>
+    <rect x="210" y="120" width="40" height="40" rx="2" fill="#00FF57" opacity="0.05"/>
+  </g>
+
+  <!-- Mesh node 1 - left room -->
+  <circle cx="760" cy="350" r="12" fill="#00FF57" opacity="0.35"/>
+  <circle cx="760" cy="350" r="8" fill="#283238"/>
+  <circle cx="760" cy="350" r="4" fill="#00FF57" opacity="0.5"/>
+  <!-- Node 1 coverage -->
+  <circle cx="760" cy="350" r="60" fill="url(#wh-node1)"/>
+  <circle cx="760" cy="350" r="80" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.1" stroke-dasharray="4 3"/>
+  <circle cx="760" cy="350" r="120" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.06" stroke-dasharray="6 4"/>
+  <!-- WiFi arcs from node 1 -->
+  <path d="M745,330 Q760,318 775,330" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <path d="M738,322 Q760,306 782,322" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.18"/>
+
+  <!-- Mesh node 2 - center -->
+  <circle cx="960" cy="280" r="12" fill="#00FF57" opacity="0.35"/>
+  <circle cx="960" cy="280" r="8" fill="#283238"/>
+  <circle cx="960" cy="280" r="4" fill="#00FF57" opacity="0.5"/>
+  <!-- Node 2 coverage -->
+  <circle cx="960" cy="280" r="60" fill="url(#wh-node1)"/>
+  <circle cx="960" cy="280" r="80" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.1" stroke-dasharray="4 3"/>
+  <circle cx="960" cy="280" r="120" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.06" stroke-dasharray="6 4"/>
+  <!-- WiFi arcs from node 2 -->
+  <path d="M945,260 Q960,248 975,260" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <path d="M938,252 Q960,236 982,252" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.18"/>
+
+  <!-- Mesh node 3 - right room -->
+  <circle cx="1160" cy="350" r="12" fill="#00FF57" opacity="0.35"/>
+  <circle cx="1160" cy="350" r="8" fill="#283238"/>
+  <circle cx="1160" cy="350" r="4" fill="#00FF57" opacity="0.5"/>
+  <!-- Node 3 coverage -->
+  <circle cx="1160" cy="350" r="60" fill="url(#wh-node2)"/>
+  <circle cx="1160" cy="350" r="80" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.1" stroke-dasharray="4 3"/>
+  <circle cx="1160" cy="350" r="120" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.06" stroke-dasharray="6 4"/>
+  <!-- WiFi arcs from node 3 -->
+  <path d="M1145,330 Q1160,318 1175,330" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <path d="M1138,322 Q1160,306 1182,322" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.18"/>
+
+  <!-- Mesh connections between nodes -->
+  <line x1="772" y1="345" x2="948" y2="285" stroke="#00FF57" stroke-width="1.5" opacity="0.2" stroke-dasharray="6 3"/>
+  <line x1="972" y1="285" x2="1148" y2="345" stroke="#00FF57" stroke-width="1.5" opacity="0.2" stroke-dasharray="6 3"/>
+  <line x1="775" y1="350" x2="1145" y2="350" stroke="#00FF57" stroke-width="0.8" opacity="0.08" stroke-dasharray="8 5"/>
+
+  <!-- Small device icons in rooms -->
+  <!-- Phone in left room -->
+  <rect x="700" y="410" width="12" height="20" rx="2" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.2"/>
+  <!-- Laptop in center -->
+  <rect x="940" y="440" width="30" height="20" rx="2" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.2"/>
+  <rect x="935" y="460" width="40" height="3" rx="1" fill="#00FF57" opacity="0.1"/>
+  <!-- Tablet in right room -->
+  <rect x="1150" y="420" width="20" height="28" rx="2" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Coverage fill - showing whole house covered -->
+  <rect x="660" y="300" width="600" height="200" rx="4" fill="#00FF57" opacity="0.02"/>
+
+  <!-- Decorative elements outside house -->
+  <circle cx="300" cy="200" r="3" fill="#00FF57" opacity="0.2"/>
+  <circle cx="400" cy="300" r="2" fill="#ffffff" opacity="0.15"/>
+  <circle cx="250" cy="400" r="2" fill="#00FF57" opacity="0.2"/>
+  <circle cx="1600" cy="200" r="3" fill="#00FF57" opacity="0.2"/>
+  <circle cx="1700" cy="350" r="2" fill="#ffffff" opacity="0.15"/>
+  <circle cx="1650" cy="450" r="2" fill="#00FF57" opacity="0.2"/>
+
+  <!-- Signal strength bars outside -->
+  <g transform="translate(350, 250)" opacity="0.15">
+    <rect x="0" y="15" width="4" height="5" fill="#00FF57"/>
+    <rect x="6" y="10" width="4" height="10" fill="#00FF57"/>
+    <rect x="12" y="5" width="4" height="15" fill="#00FF57"/>
+    <rect x="18" y="0" width="4" height="20" fill="#00FF57"/>
+  </g>
+  <g transform="translate(1550, 250)" opacity="0.15">
+    <rect x="0" y="15" width="4" height="5" fill="#00FF57"/>
+    <rect x="6" y="10" width="4" height="10" fill="#00FF57"/>
+    <rect x="12" y="5" width="4" height="15" fill="#00FF57"/>
+    <rect x="18" y="0" width="4" height="20" fill="#00FF57"/>
+  </g>
 </svg>

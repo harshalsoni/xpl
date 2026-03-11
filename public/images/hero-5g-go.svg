@@ -1,13 +1,86 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
   <defs>
-    <linearGradient id="hero-5g-go-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#283238"/>
-      <stop offset="100%" style="stop-color:#00D448"/>
+    <linearGradient id="go-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#283238"/>
+      <stop offset="100%" stop-color="#1C2428"/>
+    </linearGradient>
+    <radialGradient id="go-glow" cx="40%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#00FF57" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00FF57" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="go-trail" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF57" stop-opacity="0"/>
+      <stop offset="80%" stop-color="#00FF57" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00FF57" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="1920" height="600" fill="url(#hero-5g-go-bg)"/>
-  <circle cx="1600" cy="300" r="200" fill="#00FF57" opacity="0.08"/>
-  <text x="960" y="240" font-family="Arial, sans-serif" font-weight="bold" font-size="64" fill="#00FF57" text-anchor="middle">5G Go</text>
-  <text x="960" y="310" font-family="Arial, sans-serif" font-weight="bold" font-size="40" fill="#ffffff" text-anchor="middle">Affordable 5G Internet</text>
-  <text x="960" y="370" font-family="Arial, sans-serif" font-size="24" fill="#00FF57" text-anchor="middle" opacity="0.7">Placeholder — replace with 5G Go banner image</text>
+
+  <rect width="1920" height="600" fill="url(#go-bg)"/>
+  <rect width="1920" height="600" fill="url(#go-glow)"/>
+
+  <!-- Movement/speed trail lines -->
+  <rect x="100" y="200" width="400" height="1.5" fill="url(#go-trail)" opacity="0.5"/>
+  <rect x="50" y="240" width="350" height="1" fill="url(#go-trail)" opacity="0.4"/>
+  <rect x="150" y="280" width="300" height="1" fill="url(#go-trail)" opacity="0.3"/>
+  <rect x="80" y="350" width="380" height="1.5" fill="url(#go-trail)" opacity="0.45"/>
+  <rect x="120" y="390" width="320" height="1" fill="url(#go-trail)" opacity="0.35"/>
+  <rect x="60" y="430" width="360" height="1" fill="url(#go-trail)" opacity="0.3"/>
+
+  <!-- Abstract mobile device / hub shape -->
+  <rect x="700" y="180" width="180" height="240" rx="20" ry="20" fill="none" stroke="#00FF57" stroke-width="2.5" opacity="0.4"/>
+  <rect x="720" y="200" width="140" height="180" rx="5" fill="#00FF57" opacity="0.06"/>
+  <circle cx="790" cy="400" r="8" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.3"/>
+  <!-- Screen glow -->
+  <rect x="730" y="210" width="120" height="80" rx="3" fill="#00FF57" opacity="0.08"/>
+  <!-- Signal indicator on device -->
+  <path d="M770,230 Q790,210 810,230" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.35"/>
+  <path d="M760,240 Q790,210 820,240" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.25"/>
+  <path d="M750,250 Q790,210 830,250" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.18"/>
+
+  <!-- Signal waves from device -->
+  <circle cx="790" cy="300" r="130" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.08" stroke-dasharray="8 6"/>
+  <circle cx="790" cy="300" r="180" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.06" stroke-dasharray="10 8"/>
+  <circle cx="790" cy="300" r="230" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.04" stroke-dasharray="12 10"/>
+
+  <!-- Connection dots - devices around -->
+  <circle cx="1100" cy="200" r="5" fill="#00FF57" opacity="0.4"/>
+  <circle cx="1200" cy="350" r="4" fill="#00FF57" opacity="0.35"/>
+  <circle cx="1050" cy="450" r="5" fill="#00FF57" opacity="0.4"/>
+  <circle cx="1300" cy="250" r="3" fill="#00FF57" opacity="0.3"/>
+  <circle cx="1150" cy="500" r="4" fill="#00FF57" opacity="0.35"/>
+
+  <!-- Dotted connection lines from hub to devices -->
+  <line x1="880" y1="280" x2="1100" y2="200" stroke="#00FF57" stroke-width="1" opacity="0.15" stroke-dasharray="4 4"/>
+  <line x1="880" y1="320" x2="1200" y2="350" stroke="#00FF57" stroke-width="1" opacity="0.15" stroke-dasharray="4 4"/>
+  <line x1="880" y1="360" x2="1050" y2="450" stroke="#00FF57" stroke-width="1" opacity="0.15" stroke-dasharray="4 4"/>
+  <line x1="880" y1="300" x2="1300" y2="250" stroke="#00FF57" stroke-width="1" opacity="0.12" stroke-dasharray="4 4"/>
+
+  <!-- Travel/portability - road perspective lines -->
+  <line x1="960" y1="600" x2="1400" y2="300" stroke="#ffffff" stroke-width="0.8" opacity="0.06"/>
+  <line x1="960" y1="600" x2="1500" y2="350" stroke="#ffffff" stroke-width="0.8" opacity="0.05"/>
+  <line x1="960" y1="600" x2="1350" y2="250" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
+
+  <!-- Map/location dots -->
+  <circle cx="1400" cy="150" r="6" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="1400" cy="150" r="2" fill="#00FF57" opacity="0.4"/>
+  <circle cx="1600" cy="300" r="6" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="1600" cy="300" r="2" fill="#00FF57" opacity="0.4"/>
+  <circle cx="1500" cy="450" r="6" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="1500" cy="450" r="2" fill="#00FF57" opacity="0.4"/>
+  <circle cx="1750" cy="200" r="6" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="1750" cy="200" r="2" fill="#00FF57" opacity="0.35"/>
+
+  <!-- Connecting location dots -->
+  <line x1="1400" y1="150" x2="1600" y2="300" stroke="#00FF57" stroke-width="0.8" opacity="0.12" stroke-dasharray="6 4"/>
+  <line x1="1600" y1="300" x2="1500" y2="450" stroke="#00FF57" stroke-width="0.8" opacity="0.12" stroke-dasharray="6 4"/>
+  <line x1="1400" y1="150" x2="1750" y2="200" stroke="#00FF57" stroke-width="0.8" opacity="0.1" stroke-dasharray="6 4"/>
+
+  <!-- Floating particles -->
+  <circle cx="200" cy="150" r="2" fill="#ffffff" opacity="0.3"/>
+  <circle cx="350" cy="480" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="500" cy="100" r="1.5" fill="#00FF57" opacity="0.3"/>
+  <circle cx="600" cy="500" r="2" fill="#ffffff" opacity="0.2"/>
+  <circle cx="1800" cy="100" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="1700" cy="500" r="1.5" fill="#00FF57" opacity="0.3"/>
+  <circle cx="1850" cy="400" r="2" fill="#ffffff" opacity="0.2"/>
 </svg>
