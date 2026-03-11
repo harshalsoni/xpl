@@ -70,7 +70,6 @@
   <polygon points="1200,282 1218,228 1236,282" fill="#00FF57" opacity="0.18"/>
   <rect x="1215" y="305" width="5" height="20" fill="#283238" opacity="0.5"/>
 
-  <polygon points="1480" fill="none"/>
   <polygon points="1470,308 1488,258 1506,308" fill="#00FF57" opacity="0.2"/>
   <polygon points="1470,288 1488,238 1506,288" fill="#00FF57" opacity="0.18"/>
   <rect x="1485" y="308" width="5" height="18" fill="#283238" opacity="0.5"/>
