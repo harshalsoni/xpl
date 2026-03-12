@@ -1,11 +1,11 @@
-import { Zap, Infinity, Globe, Users } from 'lucide-react';
+import { Zap, Infinity as InfinityIcon, Globe, Users } from 'lucide-react';
 import HeroSection from '../components/ui/HeroSection';
 import FeatureGrid from '../components/ui/FeatureGrid';
 import CTABanner from '../components/sections/CTABanner';
 
 const features = [
   { icon: Zap, title: 'Up to 100 Mbps Speeds', description: 'Stream 4K videos, work, play and connect all your devices.' },
-  { icon: Infinity, title: 'Unlimited Usage', description: "500 GB/month at max speeds and unlimited access thereafter. No overage charges, ever." },
+  { icon: InfinityIcon, title: 'Unlimited Usage', description: "500 GB/month at max speeds and unlimited access thereafter. No overage charges, ever." },
   { icon: Globe, title: 'Enhanced Coverage', description: 'Great Internet, wherever you live across Canada.' },
   { icon: Users, title: 'Professional Install & Local Support', description: 'An Xplore technician from your community will install your service and make sure everything is set up correctly.' },
 ];
@@ -18,7 +18,8 @@ export default function Satellite() {
         description="Powered by the JUPITER™3 satellite, the largest commercial satellite in the world, we're bringing next-generation satellite Internet services to more remote locations across Canada."
         ctaText="Check Availability"
         ctaHref="#lookup"
-        bgColor="bg-gradient-to-br from-violet-700 to-purple-900"
+        bgColor="bg-gradient-to-br from-xplore-dark-deep to-xplore-dark"
+        bgImage="/images/hero-satellite.svg"
       />
 
       <section className="py-16">

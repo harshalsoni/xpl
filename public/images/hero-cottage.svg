@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="ct-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1C2428"/>
+      <stop offset="100%" stop-color="#283238"/>
+    </linearGradient>
+    <linearGradient id="ct-water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#283238" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1C2428" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="ct-tree" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00FF57" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00FF57" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="ct-moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="600" fill="url(#ct-sky)"/>
+
+  <!-- Moon -->
+  <circle cx="1600" cy="100" r="60" fill="url(#ct-moon)" opacity="0.3"/>
+  <circle cx="1600" cy="100" r="30" fill="#ffffff" opacity="0.15"/>
+
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="2" fill="#ffffff" opacity="0.5"/>
+  <circle cx="250" cy="80" r="1.5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="400" cy="30" r="2" fill="#ffffff" opacity="0.45"/>
+  <circle cx="600" cy="70" r="1" fill="#ffffff" opacity="0.3"/>
+  <circle cx="800" cy="40" r="2" fill="#ffffff" opacity="0.5"/>
+  <circle cx="1000" cy="60" r="1.5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="1200" cy="35" r="1" fill="#ffffff" opacity="0.35"/>
+  <circle cx="1400" cy="55" r="2" fill="#ffffff" opacity="0.45"/>
+  <circle cx="1750" cy="50" r="1.5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="1850" cy="80" r="1" fill="#ffffff" opacity="0.3"/>
+
+  <!-- Distant treeline -->
+  <path d="M0,280 L30,250 L60,280 L90,240 L120,270 L150,230 L180,260 L210,220 L240,260 L270,240 L300,270 L330,230 L360,260 L390,240 L420,270 L450,225 L480,260 L510,235 L540,265 L570,230 L600,260 L630,240 L660,270 L690,235 L720,260 L750,230 L780,255 L810,225 L840,255 L870,235 L900,260 L930,230 L960,255 L990,225 L1020,255 L1050,235 L1080,260 L1110,230 L1140,258 L1170,228 L1200,255 L1230,235 L1260,260 L1290,230 L1320,255 L1350,225 L1380,252 L1410,232 L1440,258 L1470,228 L1500,255 L1530,235 L1560,260 L1590,230 L1620,255 L1650,225 L1680,252 L1710,235 L1740,258 L1770,230 L1800,255 L1830,240 L1860,260 L1890,235 L1920,255 L1920,320 L0,320 Z" fill="url(#ct-tree)" opacity="0.6"/>
+
+  <!-- Cottage silhouette -->
+  <rect x="350" y="300" width="120" height="80" fill="#1C2428" opacity="0.9"/>
+  <polygon points="330,300 410,250 490,300" fill="#1C2428" opacity="0.9"/>
+  <!-- Chimney -->
+  <rect x="440" y="260" width="15" height="30" fill="#1C2428" opacity="0.9"/>
+  <!-- Windows -->
+  <rect x="370" y="320" width="20" height="20" fill="#00FF57" opacity="0.35"/>
+  <rect x="420" y="320" width="20" height="20" fill="#00FF57" opacity="0.3"/>
+  <!-- Door -->
+  <rect x="395" y="345" width="20" height="35" fill="#00FF57" opacity="0.25"/>
+
+  <!-- Second smaller cabin -->
+  <rect x="1300" y="310" width="80" height="55" fill="#1C2428" opacity="0.85"/>
+  <polygon points="1285,310 1340,275 1395,310" fill="#1C2428" opacity="0.85"/>
+  <rect x="1320" y="325" width="15" height="15" fill="#00FF57" opacity="0.25"/>
+  <rect x="1350" y="325" width="15" height="15" fill="#00FF57" opacity="0.2"/>
+
+  <!-- Pine trees -->
+  <polygon points="240,310 255,260 270,310" fill="#00FF57" opacity="0.2"/>
+  <polygon points="240,290 255,240 270,290" fill="#00FF57" opacity="0.18"/>
+  <rect x="253" y="310" width="4" height="20" fill="#283238" opacity="0.5"/>
+
+  <polygon points="560,305 575,255 590,305" fill="#00FF57" opacity="0.2"/>
+  <polygon points="560,285 575,235 590,285" fill="#00FF57" opacity="0.18"/>
+  <rect x="573" y="305" width="4" height="20" fill="#283238" opacity="0.5"/>
+
+  <polygon points="1200,305 1218,248 1236,305" fill="#00FF57" opacity="0.22"/>
+  <polygon points="1200,282 1218,228 1236,282" fill="#00FF57" opacity="0.18"/>
+  <rect x="1215" y="305" width="5" height="20" fill="#283238" opacity="0.5"/>
+
+  <polygon points="1470,308 1488,258 1506,308" fill="#00FF57" opacity="0.2"/>
+  <polygon points="1470,288 1488,238 1506,288" fill="#00FF57" opacity="0.18"/>
+  <rect x="1485" y="308" width="5" height="18" fill="#283238" opacity="0.5"/>
+
+  <!-- Shoreline -->
+  <path d="M0,380 Q480,360 960,380 Q1440,400 1920,375 L1920,390 Q1440,415 960,395 Q480,375 0,395 Z" fill="#00FF57" opacity="0.1"/>
+
+  <!-- Lake water -->
+  <rect x="0" y="385" width="1920" height="215" fill="url(#ct-water)"/>
+
+  <!-- Water reflections -->
+  <rect x="340" y="410" width="140" height="1.5" fill="#00FF57" opacity="0.08"/>
+  <rect x="360" y="430" width="100" height="1" fill="#00FF57" opacity="0.06"/>
+  <rect x="380" y="450" width="60" height="0.8" fill="#00FF57" opacity="0.04"/>
+
+  <rect x="1290" y="415" width="100" height="1.5" fill="#00FF57" opacity="0.07"/>
+  <rect x="1310" y="435" width="70" height="1" fill="#00FF57" opacity="0.05"/>
+
+  <!-- Moon reflection on water -->
+  <rect x="1580" y="400" width="40" height="1.5" fill="#ffffff" opacity="0.08"/>
+  <rect x="1570" y="420" width="60" height="1" fill="#ffffff" opacity="0.06"/>
+  <rect x="1585" y="440" width="30" height="1" fill="#ffffff" opacity="0.04"/>
+  <rect x="1575" y="460" width="50" height="0.8" fill="#ffffff" opacity="0.03"/>
+
+  <!-- Dock -->
+  <rect x="680" y="370" width="80" height="5" fill="#283238" opacity="0.7"/>
+  <rect x="685" y="370" width="5" height="30" fill="#283238" opacity="0.6"/>
+  <rect x="750" y="370" width="5" height="30" fill="#283238" opacity="0.6"/>
+
+  <!-- WiFi signal from cottage -->
+  <path d="M410,280 Q430,260 450,280" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <path d="M400,290 Q430,260 460,290" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.18"/>
+  <path d="M390,300 Q430,260 470,300" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.12"/>
+
+  <!-- Gentle water ripples -->
+  <ellipse cx="500" cy="480" rx="80" ry="3" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.06"/>
+  <ellipse cx="900" cy="500" rx="100" ry="3" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.05"/>
+  <ellipse cx="1400" cy="490" rx="90" ry="3" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.05"/>
+</svg>

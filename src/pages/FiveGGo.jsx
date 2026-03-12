@@ -1,4 +1,4 @@
-import { Zap, Infinity, Wifi, Smartphone, Settings, MapPin, Battery } from 'lucide-react';
+import { Zap, Infinity as InfinityIcon, Wifi, Smartphone, Settings, MapPin, Battery } from 'lucide-react';
 import HeroSection from '../components/ui/HeroSection';
 import FeatureGrid from '../components/ui/FeatureGrid';
 import FAQAccordion from '../components/ui/FAQAccordion';
@@ -7,7 +7,7 @@ import { fiveGGoFAQ } from '../data/faq/fiveGGo';
 
 const features = [
   { icon: Zap, title: 'Fast Internet', description: 'Speeds up to 100 Mbps' },
-  { icon: Infinity, title: 'Truly Unlimited Data', description: 'No throttling' },
+  { icon: InfinityIcon, title: 'Truly Unlimited Data', description: 'No throttling' },
   { icon: Wifi, title: 'Fast WiFi', description: 'Using Wi-Fi 6' },
   { icon: Smartphone, title: 'Connect Many Devices', description: 'Up to 10 devices' },
   { icon: Settings, title: 'Easy to Install', description: 'Instant self-setup, plug & play' },
@@ -23,7 +23,8 @@ export default function FiveGGo() {
         description="Get powerful 5G Internet that moves with you. Speeds up to 100 Mbps available."
         ctaText="Order Now"
         ctaHref="https://www.myxplore.ca/customers/s/xplore-5g-go-purchase?language=en_US"
-        bgColor="bg-gradient-to-br from-cyan-600 to-blue-800"
+        bgColor="bg-gradient-to-br from-xplore-dark to-xplore-green-dark"
+        bgImage="/images/hero-5g-go.svg"
       />
 
       <section className="py-16">

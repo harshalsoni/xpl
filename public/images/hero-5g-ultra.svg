@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="u5-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C2428"/>
+      <stop offset="100%" stop-color="#283238"/>
+    </linearGradient>
+    <radialGradient id="u5-burst" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00FF57" stop-opacity="0.25"/>
+      <stop offset="40%" stop-color="#00FF57" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00FF57" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="u5-speed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF57" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00FF57" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00FF57" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="600" fill="url(#u5-bg)"/>
+
+  <!-- Central energy burst -->
+  <ellipse cx="960" cy="300" rx="500" ry="350" fill="url(#u5-burst)"/>
+
+  <!-- Speed lines - horizontal -->
+  <rect x="0" y="180" width="600" height="2" fill="url(#u5-speed)" opacity="0.5"/>
+  <rect x="200" y="220" width="500" height="1.5" fill="url(#u5-speed)" opacity="0.4"/>
+  <rect x="100" y="260" width="700" height="1" fill="url(#u5-speed)" opacity="0.3"/>
+  <rect x="1200" y="340" width="720" height="2" fill="url(#u5-speed)" opacity="0.5"/>
+  <rect x="1300" y="380" width="620" height="1.5" fill="url(#u5-speed)" opacity="0.4"/>
+  <rect x="1100" y="420" width="820" height="1" fill="url(#u5-speed)" opacity="0.3"/>
+
+  <!-- Circuit board patterns - left -->
+  <path d="M0,100 L100,100 L100,200 L200,200" stroke="#00FF57" stroke-width="1.5" fill="none" opacity="0.15"/>
+  <path d="M0,150 L150,150 L150,300 L250,300" stroke="#00FF57" stroke-width="1" fill="none" opacity="0.1"/>
+  <path d="M50,0 L50,120 L180,120" stroke="#00FF57" stroke-width="1" fill="none" opacity="0.12"/>
+  <circle cx="100" cy="100" r="4" fill="#00FF57" opacity="0.3"/>
+  <circle cx="100" cy="200" r="4" fill="#00FF57" opacity="0.3"/>
+  <circle cx="200" cy="200" r="4" fill="#00FF57" opacity="0.3"/>
+  <circle cx="150" cy="150" r="3" fill="#00FF57" opacity="0.25"/>
+  <circle cx="150" cy="300" r="4" fill="#00FF57" opacity="0.3"/>
+  <circle cx="250" cy="300" r="3" fill="#00FF57" opacity="0.25"/>
+
+  <!-- Circuit board patterns - right -->
+  <path d="M1920,500 L1820,500 L1820,400 L1720,400" stroke="#00FF57" stroke-width="1.5" fill="none" opacity="0.15"/>
+  <path d="M1920,450 L1770,450 L1770,350 L1670,350" stroke="#00FF57" stroke-width="1" fill="none" opacity="0.1"/>
+  <path d="M1870,600 L1870,480 L1740,480" stroke="#00FF57" stroke-width="1" fill="none" opacity="0.12"/>
+  <circle cx="1820" cy="500" r="4" fill="#00FF57" opacity="0.3"/>
+  <circle cx="1820" cy="400" r="4" fill="#00FF57" opacity="0.3"/>
+  <circle cx="1720" cy="400" r="3" fill="#00FF57" opacity="0.25"/>
+  <circle cx="1770" cy="450" r="3" fill="#00FF57" opacity="0.25"/>
+  <circle cx="1770" cy="350" r="4" fill="#00FF57" opacity="0.3"/>
+
+  <!-- Signal tower center -->
+  <rect x="945" y="150" width="30" height="250" fill="#283238" opacity="0.0"/>
+  <polygon points="940,400 960,140 980,400" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.4"/>
+  <rect x="930" y="200" width="60" height="3" fill="#00FF57" opacity="0.3"/>
+  <rect x="936" y="240" width="48" height="3" fill="#00FF57" opacity="0.25"/>
+  <rect x="942" y="280" width="36" height="3" fill="#00FF57" opacity="0.2"/>
+  <circle cx="960" cy="140" r="6" fill="#00FF57" opacity="0.6"/>
+
+  <!-- Radio waves from tower -->
+  <path d="M920,180 Q880,220 920,260" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.3"/>
+  <path d="M900,160 Q840,220 900,280" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <path d="M880,140 Q800,220 880,300" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.12"/>
+  <path d="M1000,180 Q1040,220 1000,260" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.3"/>
+  <path d="M1020,160 Q1080,220 1020,280" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <path d="M1040,140 Q1120,220 1040,300" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.12"/>
+
+  <!-- Hexagonal tech pattern -->
+  <polygon points="400,300 430,280 460,300 460,340 430,360 400,340" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.12"/>
+  <polygon points="460,300 490,280 520,300 520,340 490,360 460,340" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.1"/>
+  <polygon points="430,360 460,340 490,360 490,400 460,420 430,400" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.08"/>
+
+  <polygon points="1400,250 1430,230 1460,250 1460,290 1430,310 1400,290" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.12"/>
+  <polygon points="1460,250 1490,230 1520,250 1520,290 1490,310 1460,290" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.1"/>
+  <polygon points="1430,310 1460,290 1490,310 1490,350 1460,370 1430,350" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.08"/>
+
+  <!-- Floating data particles -->
+  <circle cx="300" cy="150" r="3" fill="#00FF57" opacity="0.4"/>
+  <circle cx="450" cy="200" r="2" fill="#ffffff" opacity="0.3"/>
+  <circle cx="600" cy="130" r="2.5" fill="#00FF57" opacity="0.35"/>
+  <circle cx="750" cy="250" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="1150" cy="200" r="2.5" fill="#00FF57" opacity="0.35"/>
+  <circle cx="1300" cy="150" r="2" fill="#ffffff" opacity="0.3"/>
+  <circle cx="1500" cy="180" r="3" fill="#00FF57" opacity="0.4"/>
+  <circle cx="1650" cy="250" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="350" cy="450" r="2" fill="#00FF57" opacity="0.3"/>
+  <circle cx="550" cy="480" r="2.5" fill="#ffffff" opacity="0.2"/>
+  <circle cx="1350" cy="460" r="2" fill="#00FF57" opacity="0.3"/>
+  <circle cx="1600" cy="490" r="2.5" fill="#ffffff" opacity="0.2"/>
+
+  <!-- Dynamic angle lines -->
+  <line x1="0" y1="400" x2="400" y2="300" stroke="#00FF57" stroke-width="0.8" opacity="0.08"/>
+  <line x1="0" y1="500" x2="500" y2="350" stroke="#00FF57" stroke-width="0.8" opacity="0.06"/>
+  <line x1="1920" y1="200" x2="1520" y2="300" stroke="#00FF57" stroke-width="0.8" opacity="0.08"/>
+  <line x1="1920" y1="100" x2="1420" y2="250" stroke="#00FF57" stroke-width="0.8" opacity="0.06"/>
+
+  <!-- Bottom energy bar -->
+  <rect x="0" y="580" width="1920" height="20" fill="#00FF57" opacity="0.06"/>
+  <rect x="0" y="590" width="1920" height="10" fill="#00FF57" opacity="0.04"/>
+</svg>

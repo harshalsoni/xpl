@@ -8,6 +8,7 @@ export default function HeroSection({
   ctaTo,
   ctaHref,
   bgColor = 'bg-gradient-to-br from-xplore-green to-xplore-green-dark',
+  bgImage,
   textColor = 'text-white',
   align = 'center',
   size = 'lg',
@@ -19,8 +20,18 @@ export default function HeroSection({
   };
 
   return (
-    <section className={`${bgColor} ${textColor} ${heights[size]}`}>
-      <div className={`max-w-7xl mx-auto px-4 ${align === 'center' ? 'text-center' : 'text-left'}`}>
+    <section
+      className={`relative ${bgColor} ${textColor} ${heights[size]}`}
+    >
+      {bgImage && (
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${bgImage})` }}
+        >
+          <div className="absolute inset-0 bg-xplore-dark/60" />
+        </div>
+      )}
+      <div className={`relative z-10 max-w-7xl mx-auto px-4 ${align === 'center' ? 'text-center' : 'text-left'}`}>
         {subtitle && (
           <p className="text-sm font-semibold uppercase tracking-wider opacity-80 mb-3">{subtitle}</p>
         )}

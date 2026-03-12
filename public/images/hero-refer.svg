@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="rf-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#283238"/>
+      <stop offset="100%" stop-color="#1C2428"/>
+    </linearGradient>
+    <radialGradient id="rf-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00FF57" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00FF57" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="600" fill="url(#rf-bg)"/>
+  <ellipse cx="960" cy="300" rx="600" ry="350" fill="url(#rf-glow)"/>
+
+  <!-- Confetti particles scattered -->
+  <rect x="150" y="80" width="8" height="3" fill="#00FF57" opacity="0.4" transform="rotate(30 154 81)"/>
+  <rect x="300" y="120" width="6" height="3" fill="#ffffff" opacity="0.3" transform="rotate(-20 303 121)"/>
+  <rect x="450" y="60" width="8" height="3" fill="#00FF57" opacity="0.35" transform="rotate(45 454 61)"/>
+  <rect x="600" y="100" width="6" height="3" fill="#ffffff" opacity="0.25" transform="rotate(-35 603 101)"/>
+  <rect x="800" y="70" width="8" height="3" fill="#00FF57" opacity="0.4" transform="rotate(15 804 71)"/>
+  <rect x="1100" y="80" width="8" height="3" fill="#00FF57" opacity="0.35" transform="rotate(-25 1104 81)"/>
+  <rect x="1300" y="60" width="6" height="3" fill="#ffffff" opacity="0.3" transform="rotate(40 1303 61)"/>
+  <rect x="1500" y="100" width="8" height="3" fill="#00FF57" opacity="0.4" transform="rotate(-15 1504 101)"/>
+  <rect x="1700" y="70" width="6" height="3" fill="#ffffff" opacity="0.25" transform="rotate(35 1703 71)"/>
+  <rect x="1850" y="110" width="8" height="3" fill="#00FF57" opacity="0.35" transform="rotate(-40 1854 111)"/>
+
+  <!-- More confetti -->
+  <circle cx="200" cy="150" r="3" fill="#00FF57" opacity="0.3"/>
+  <circle cx="500" cy="130" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="750" cy="160" r="3" fill="#00FF57" opacity="0.35"/>
+  <circle cx="1200" cy="140" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="1450" cy="155" r="3" fill="#00FF57" opacity="0.3"/>
+  <circle cx="1700" cy="130" r="2" fill="#ffffff" opacity="0.2"/>
+
+  <!-- Person icon left -->
+  <circle cx="650" cy="260" r="25" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.35"/>
+  <circle cx="650" cy="250" r="10" fill="#00FF57" opacity="0.15"/>
+  <path d="M630,280 Q650,300 670,280" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.2"/>
+
+  <!-- Person icon right -->
+  <circle cx="1270" cy="260" r="25" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.35"/>
+  <circle cx="1270" cy="250" r="10" fill="#00FF57" opacity="0.15"/>
+  <path d="M1250,280 Q1270,300 1290,280" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.2"/>
+
+  <!-- Connection arc between people -->
+  <path d="M680,260 Q960,180 1240,260" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2" stroke-dasharray="8 4"/>
+  <!-- Heart/connection at top of arc -->
+  <path d="M950,205 Q955,195 960,205 Q965,195 970,205 Q960,220 950,205" fill="#00FF57" opacity="0.25"/>
+
+  <!-- Gift box center -->
+  <rect x="920" y="300" width="80" height="70" rx="4" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.3"/>
+  <rect x="920" y="290" width="80" height="15" rx="3" fill="none" stroke="#00FF57" stroke-width="2" opacity="0.3"/>
+  <line x1="960" y1="290" x2="960" y2="370" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <path d="M945,290 Q960,275 960,290" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <path d="M975,290 Q960,275 960,290" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Gift box left -->
+  <rect x="350" y="350" width="55" height="48" rx="3" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <rect x="350" y="342" width="55" height="12" rx="2" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <line x1="377" y1="342" x2="377" y2="398" stroke="#00FF57" stroke-width="1" opacity="0.15"/>
+
+  <!-- Gift box right -->
+  <rect x="1500" y="340" width="55" height="48" rx="3" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <rect x="1500" y="332" width="55" height="12" rx="2" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <line x1="1527" y1="332" x2="1527" y2="388" stroke="#00FF57" stroke-width="1" opacity="0.15"/>
+
+  <!-- Stars/sparkles -->
+  <path d="M800,180 L805,170 L810,180 L820,185 L810,190 L805,200 L800,190 L790,185 Z" fill="#00FF57" opacity="0.3"/>
+  <path d="M1120,200 L1124,192 L1128,200 L1136,204 L1128,208 L1124,216 L1120,208 L1112,204 Z" fill="#00FF57" opacity="0.25"/>
+  <path d="M400,200 L403,194 L406,200 L412,203 L406,206 L403,212 L400,206 L394,203 Z" fill="#ffffff" opacity="0.25"/>
+  <path d="M1550,220 L1553,214 L1556,220 L1562,223 L1556,226 L1553,232 L1550,226 L1544,223 Z" fill="#ffffff" opacity="0.2"/>
+
+  <!-- Reward circles/coins -->
+  <circle cx="200" cy="400" r="20" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="200" cy="400" r="14" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.15"/>
+  <circle cx="1750" cy="380" r="20" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="1750" cy="380" r="14" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- Arrow from left person to gift -->
+  <line x1="680" y1="290" x2="910" y2="330" stroke="#00FF57" stroke-width="1" opacity="0.12" stroke-dasharray="4 3"/>
+  <!-- Arrow from gift to right person -->
+  <line x1="1010" y1="330" x2="1240" y2="290" stroke="#00FF57" stroke-width="1" opacity="0.12" stroke-dasharray="4 3"/>
+
+  <!-- Decorative circles bottom -->
+  <circle cx="100" cy="520" r="30" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.08"/>
+  <circle cx="500" cy="540" r="25" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.06"/>
+  <circle cx="960" cy="530" r="35" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.07"/>
+  <circle cx="1400" cy="550" r="28" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.06"/>
+  <circle cx="1800" cy="520" r="30" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.08"/>
+</svg>

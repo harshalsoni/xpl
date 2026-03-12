@@ -1,16 +1,83 @@
-# React + Vite
+# Xplore Internet — Website Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A replica of the [xplore.ca](https://www.xplore.ca/) website built with React and Vite. Xplore is a Canadian rural Internet service provider offering 5G, fibre, and satellite connectivity.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** — UI framework
+- **Vite 7** — build tool and dev server
+- **Tailwind CSS 4** — utility-first styling
+- **React Router 7** — client-side routing
+- **Lucide React** — SVG icon library
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) v18 or later
+- npm (comes with Node.js)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Install & Run
+
+```bash
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The app will be available at `http://localhost:5173/`.
+
+### Other Commands
+
+| Command             | Description                           |
+| ------------------- | ------------------------------------- |
+| `npm run dev`       | Start the Vite dev server with HMR    |
+| `npm run build`     | Build for production into `dist/`     |
+| `npm run preview`   | Preview the production build locally  |
+| `npm run lint`      | Run ESLint on all source files        |
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── layout/        # Header, Footer, Layout wrapper
+│   ├── sections/      # Page sections (BlogPreview, CTABanner)
+│   └── ui/            # Reusable UI (Button, Card, HeroSection, etc.)
+├── data/              # Static data (navigation, blog posts, FAQs, testimonials)
+├── pages/             # Route-level page components
+├── App.jsx            # Route definitions
+├── main.jsx           # React entry point
+└── index.css          # Tailwind imports and custom theme
+```
+
+## Routes
+
+| Path                             | Page                |
+| -------------------------------- | ------------------- |
+| `/`                              | Home                |
+| `/about`                         | About Us            |
+| `/5gultra`                       | 5G Ultra            |
+| `/5g-go`                         | 5G Go Hub           |
+| `/fibre`                         | Fibre Internet      |
+| `/satellite-internet-canada`     | Satellite Internet  |
+| `/cottage`                       | Cottage Internet    |
+| `/network`                       | Our Network         |
+| `/shop`                          | Shop                |
+| `/shop/internet-packages`        | Internet Packages   |
+| `/shop/new-xplore-home-phone`    | Home Phone          |
+| `/shop/wifi-solutions`           | Wi-Fi Solutions     |
+| `/shop/xtra-care`                | Xtra Care Warranty  |
+| `/shop/refer-a-friend`           | Refer a Friend      |
+| `/contact-us`                    | Contact Us          |
+| `/experts-in-rural-connectivity` | Experts             |
+| `/connecting-rural-canadians`    | Customer Stories    |
+| `/blog`                          | Blog Listing        |
+| `/blog/:slug`                    | Blog Post           |
+| `/business`                      | Business            |
+
+## License
+
+This project is for educational and demonstration purposes only.

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="wf-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C2428"/>
+      <stop offset="100%" stop-color="#283238"/>
+    </linearGradient>
+    <radialGradient id="wf-signal" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#00FF57" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00FF57" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="600" fill="url(#wf-bg)"/>
+  <rect width="1920" height="600" fill="url(#wf-signal)"/>
+
+  <!-- Large WiFi symbol - center -->
+  <circle cx="960" cy="370" r="8" fill="#00FF57" opacity="0.5"/>
+  <path d="M920,340 Q960,300 1000,340" fill="none" stroke="#00FF57" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M890,310 Q960,260 1030,310" fill="none" stroke="#00FF57" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  <path d="M860,280 Q960,220 1060,280" fill="none" stroke="#00FF57" stroke-width="3" stroke-linecap="round" opacity="0.22"/>
+  <path d="M830,250 Q960,180 1090,250" fill="none" stroke="#00FF57" stroke-width="2.5" stroke-linecap="round" opacity="0.15"/>
+  <path d="M800,220 Q960,140 1120,220" fill="none" stroke="#00FF57" stroke-width="2" stroke-linecap="round" opacity="0.1"/>
+
+  <!-- Signal propagation circles -->
+  <circle cx="960" cy="370" r="60" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.1" stroke-dasharray="4 4"/>
+  <circle cx="960" cy="370" r="120" fill="none" stroke="#00FF57" stroke-width="0.8" opacity="0.07" stroke-dasharray="6 4"/>
+  <circle cx="960" cy="370" r="180" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.05" stroke-dasharray="8 6"/>
+  <circle cx="960" cy="370" r="250" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.03" stroke-dasharray="10 8"/>
+
+  <!-- Connected devices - laptop left -->
+  <rect x="300" y="330" width="50" height="35" rx="3" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <rect x="290" y="365" width="70" height="4" rx="2" fill="#00FF57" opacity="0.15"/>
+  <line x1="355" y1="348" x2="830" y2="370" stroke="#00FF57" stroke-width="0.8" opacity="0.1" stroke-dasharray="4 3"/>
+
+  <!-- Connected devices - tablet right -->
+  <rect x="1550" y="280" width="35" height="50" rx="3" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="1567" cy="322" r="3" fill="#00FF57" opacity="0.15"/>
+  <line x1="1550" y1="305" x2="1090" y2="360" stroke="#00FF57" stroke-width="0.8" opacity="0.1" stroke-dasharray="4 3"/>
+
+  <!-- Connected devices - phone top -->
+  <rect x="720" y="150" width="24" height="40" rx="3" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="732" cy="183" r="2" fill="#00FF57" opacity="0.15"/>
+  <line x1="732" y1="190" x2="950" y2="360" stroke="#00FF57" stroke-width="0.8" opacity="0.1" stroke-dasharray="4 3"/>
+
+  <!-- Connected devices - TV bottom right -->
+  <rect x="1300" y="430" width="60" height="40" rx="2" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <rect x="1320" y="470" width="20" height="8" fill="#00FF57" opacity="0.1"/>
+  <line x1="1300" y1="450" x2="1020" y2="380" stroke="#00FF57" stroke-width="0.8" opacity="0.1" stroke-dasharray="4 3"/>
+
+  <!-- Connected devices - smart speaker bottom left -->
+  <ellipse cx="580" cy="470" rx="18" ry="25" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.2"/>
+  <ellipse cx="580" cy="460" rx="12" ry="3" fill="#00FF57" opacity="0.15"/>
+  <line x1="600" y1="460" x2="930" y2="375" stroke="#00FF57" stroke-width="0.8" opacity="0.1" stroke-dasharray="4 3"/>
+
+  <!-- Router shape bottom center -->
+  <rect x="930" y="420" width="60" height="15" rx="3" fill="none" stroke="#00FF57" stroke-width="1.5" opacity="0.3"/>
+  <rect x="940" y="435" width="40" height="25" rx="2" fill="none" stroke="#00FF57" stroke-width="1" opacity="0.2"/>
+  <!-- Antennas -->
+  <line x1="945" y1="420" x2="935" y2="400" stroke="#00FF57" stroke-width="1" opacity="0.25"/>
+  <line x1="975" y1="420" x2="985" y2="400" stroke="#00FF57" stroke-width="1" opacity="0.25"/>
+  <circle cx="935" cy="398" r="2" fill="#00FF57" opacity="0.3"/>
+  <circle cx="985" cy="398" r="2" fill="#00FF57" opacity="0.3"/>
+  <!-- LEDs -->
+  <circle cx="948" cy="445" r="2" fill="#00FF57" opacity="0.35"/>
+  <circle cx="957" cy="445" r="2" fill="#00FF57" opacity="0.25"/>
+  <circle cx="966" cy="445" r="2" fill="#00FF57" opacity="0.35"/>
+
+  <!-- Decorative elements -->
+  <circle cx="150" cy="100" r="40" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.06"/>
+  <circle cx="1800" cy="120" r="50" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.06"/>
+  <circle cx="100" cy="500" r="35" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.05"/>
+  <circle cx="1850" cy="480" r="45" fill="none" stroke="#00FF57" stroke-width="0.5" opacity="0.05"/>
+
+  <!-- Floating data dots -->
+  <circle cx="400" cy="200" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="600" cy="250" r="1.5" fill="#00FF57" opacity="0.3"/>
+  <circle cx="200" cy="350" r="2" fill="#ffffff" opacity="0.2"/>
+  <circle cx="1400" cy="200" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="1600" cy="400" r="1.5" fill="#00FF57" opacity="0.3"/>
+  <circle cx="1750" cy="300" r="2" fill="#ffffff" opacity="0.2"/>
+</svg>

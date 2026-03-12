@@ -11,7 +11,7 @@ const packageTypes = [
     description: 'The fastest Internet technology available. 100% pure fibre optic connection all the way to your home.',
     features: ['Gigabit speeds', 'Truly unlimited data', 'Ultra-low latency', 'Future-proof technology'],
     to: '/fibre',
-    gradient: 'from-teal-500 to-emerald-600',
+    gradient: 'from-xplore-green to-xplore-green-dark',
   },
   {
     icon: Wifi,
@@ -20,7 +20,7 @@ const packageTypes = [
     description: 'Fast and stable Internet using radio signals, suitable for many rural locations. Now with 5G Ultra!',
     features: ['Speeds up to 500 Mbps', 'Truly unlimited data', 'No throttling', 'Professional installation'],
     to: '/5gultra',
-    gradient: 'from-blue-500 to-indigo-600',
+    gradient: 'from-xplore-dark to-xplore-green-dark',
   },
   {
     icon: Satellite,
@@ -29,7 +29,7 @@ const packageTypes = [
     description: "Works by transmitting data between a satellite in space and a dish at your home. Available almost everywhere.",
     features: ['Up to 100 Mbps', '500 GB at max speeds', 'Canada-wide coverage', 'Professional installation'],
     to: '/satellite-internet-canada',
-    gradient: 'from-violet-500 to-purple-600',
+    gradient: 'from-xplore-dark-deep to-xplore-dark',
   },
 ];
 

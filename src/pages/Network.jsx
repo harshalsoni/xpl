@@ -7,25 +7,25 @@ const technologies = [
     title: '100% Pure Fibre Internet',
     description: 'The fastest Internet technology in the world, giving you lightning fast Gigabit speeds, unlimited data for unparalleled experience in video streaming, gaming and communications.',
     to: '/fibre',
-    gradient: 'from-teal-500 to-emerald-600',
+    gradient: 'from-xplore-green to-xplore-green-dark',
   },
   {
     title: 'NEW - 5G Ultra Home Internet',
     description: 'Powered by the latest 5G+ technology, the Xplore 5G Ultra plans bring fibre-like speeds up to 500 Mbps and truly unlimited data to rural & small-town Canada.',
     to: '/5gultra',
-    gradient: 'from-blue-500 to-indigo-600',
+    gradient: 'from-xplore-dark to-xplore-green-dark',
   },
   {
     title: 'Fast & Unlimited Wireless Home Internet up to 100 Mbps',
     description: 'Through our advanced fixed wireless home Internet network, we offer plans with speeds up to 100 Mbps in more rural and small-town communities across Canada.',
     to: '/shop/internet-packages',
-    gradient: 'from-cyan-500 to-blue-600',
+    gradient: 'from-xplore-green-dark to-xplore-dark',
   },
   {
     title: 'Next Gen Satellite Home Internet',
     description: 'Powered by the JUPITER™3 satellite, the largest commercial satellite in the world, bringing next-generation satellite Internet services to more remote locations across Canada.',
     to: '/satellite-internet-canada',
-    gradient: 'from-violet-500 to-purple-600',
+    gradient: 'from-xplore-dark-deep to-xplore-dark',
   },
 ];
 
